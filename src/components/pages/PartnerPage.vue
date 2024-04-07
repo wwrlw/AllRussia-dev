@@ -10,19 +10,19 @@
                 </div>
                 <div class="partners__list list">
                     <div class="list__card card">
-                        <img src="../assets/vulcan.png" alt="Вулкан камчатки" class="card__img">
+                        <img src="../../assets/vulcan.png" alt="Вулкан камчатки" class="card__img">
                         <p class="card__text">
                             КГБУ Природный парк «Вулканы Камчатки»
                         </p>
                     </div>
                     <div class="list__card card">
-                        <img src="../assets/telecomunication.png" alt="Вулкан камчатки" class="card__img">
+                        <img src="../../assets/telecomunication.png" alt="Вулкан камчатки" class="card__img">
                         <p class="card__text">
                             Международная академия связи
                         </p>
                     </div>
                     <div class="list__card card">
-                        <img src="../assets/icenet.png" alt="Вулкан камчатки" class="card__img">
+                        <img src="../../assets/icenet.png" alt="Вулкан камчатки" class="card__img">
                         <p class="card__text">
                             ООО «Эйснет»
                         </p>
@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import NavigationBar from "./NavigationBar.vue"
+import NavigationBar from "../NavigationBar.vue"
 
 export default {
   name: 'MainPage',

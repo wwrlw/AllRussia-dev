@@ -84,7 +84,7 @@ export default {
   color: white;
   height: 685px;
   align-items: center;
-  background-image:url('../assets/city.png') ;
+  background-image:url('../../assets/city.png') ;
 }
 .text {
  font-size: 120px;
