@@ -1,6 +1,5 @@
 .container, h3, h1, p, h2 {
     font-family: "Roboto", sans-serif;
-    margin: 0;
 }
 :root {
     --blackpure: #000;
