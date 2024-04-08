@@ -29,18 +29,15 @@
                     </div>
                 </div>
             </div>
-            <NavigationBar></NavigationBar>
         </div>
     </div>
 </template>
 
 <script>
-import NavigationBar from "../NavigationBar.vue"
 
 export default {
   name: 'MainPage',
   components: {
-    NavigationBar,
   }
 }
 

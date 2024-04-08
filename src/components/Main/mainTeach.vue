@@ -68,7 +68,7 @@ export default {
     width: 69px; /* ширина прямоугольника */
     height: 8px; /* высота прямоугольника */
     background-color: #AA0000; /* цвет фона прямоугольника */
-    margin-left: 60px;
+    margin-left: 4%;
     margin-bottom: 10px;
   }
   h3 {

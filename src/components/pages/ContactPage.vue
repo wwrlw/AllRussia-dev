@@ -10,6 +10,7 @@
                 <p class="contact__text">Телефоны: +7 (495) 784-73-55; +7 (926) 393-40-64</p>
             </div>
           <MapSection/>
+<!--          <NavigateComponent/>-->
         </div>
     </div>
 </template>
@@ -17,9 +18,8 @@
 <script>
   import MapSection from "@/components/Contact/MapSection.vue";
   import {defineComponent} from "vue";
-
   export default defineComponent({
-    components: {MapSection}
+    components: { MapSection}
   })
 
 </script>
