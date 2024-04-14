@@ -83,7 +83,7 @@ export default {
 .container {
   margin: 0 auto;
   margin-top: 80px;
-  max-width: 1400px;
+  max-width: 1440px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(2, 400px);
@@ -120,15 +120,18 @@ export default {
   background-color: black;
 }
 .item_2-subtitle {
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 18px;
   font-weight: 600;
 }
 
 .asd {
+  font-weight: 600;
   color: #AA0000;
   font-size: 14px;
 }
 .dsa {
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: 600;
   font-size: 18px;
 }
@@ -138,9 +141,15 @@ export default {
   background-color: #AA0000;
 }
 
+.item_2-title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
 
 
 .item_1-title {
+  font-family: "Roboto Condensed", sans-serif;
   margin: 0;
   width: 300px;
   font-size: 20px;
@@ -152,6 +161,7 @@ export default {
 }
 
 .item_1-text {
+  font-family: "Roboto Condensed", sans-serif;
   padding: 10px 10px 10px 10px;
   font-size: 20px;
   font-weight: 600;

@@ -9,7 +9,7 @@ export default {
   <div style="margin-bottom: 32px">
     <div class="horizontal-line"></div>
     <div class="red-rectangle"></div>
-    <h3 >ПОЛИТИКА</h3>
+    <h3 class="title">ЭКОНОМИКА</h3>
 
     <div class="container">
       <div class="item item_1">
@@ -34,7 +34,7 @@ export default {
 <style scoped>
 
 .container {
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -54,6 +54,7 @@ h3 {
   font-size: 20px;
 }
 .item_1-txt {
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 26px;
@@ -62,7 +63,7 @@ h3 {
 
 .horizontal-line {
   height: 1px;
-  width: 1400px;
+  width: 1440px;
   background-color: #000;
   margin: 0 auto;
 }
@@ -71,7 +72,6 @@ h3 {
   width: 69px; /* ширина прямоугольника */
   height: 8px; /* высота прямоугольника */
   background-color: #AA0000; /* цвет фона прямоугольника */
-  margin-left: 4%;
   margin-bottom: 10px;
 }
 
@@ -80,7 +80,7 @@ h3 {
   padding-right: 20px;
 }
 h3 {
-  margin: 0 0 0 58px;
+
   font-size: 24px;
 }
 

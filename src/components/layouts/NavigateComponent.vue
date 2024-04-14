@@ -1,13 +1,16 @@
 <template>
-  <div class="container">
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__item" :class="{ active: currentPage === 'home' }"><router-link to="/">О ПОРТАЛЕ</router-link></li>
-        <li class="nav__item" :class="{ active: currentPage === 'about' }"><router-link to="/about">ПАРТНЕРЫ</router-link></li>
-        <li class="nav__item" :class="{ active: currentPage === 'contact' }"><router-link to="/contact">КОНТАКТЫ</router-link></li>
-        <li class="nav__item" :class="{ active: currentPage === 'contact' }"><router-link to="/contact">ПРОЕКТЫ</router-link></li>
+  <div>
+    <div class="horizontal-line"></div>
+    <div class="red-rectangle"></div>
+    <div class="navigate_list">
+      <ul class="navigate_list-main list">
+        <li class="navigate_logo">ALLRUSSIA</li>
+        <li><a href="/">О ПОРТАЛЕ</a></li>
+        <li><a href="/">ПАРТНЕРЫ</a></li>
+        <li><a href="/">КОНТАКТЫ</a></li>
+        <li><a href="/">ПРОЕКТЫ</a></li>
       </ul>
-    </nav>
+    </div>
   </div>
 </template>
 
@@ -33,4 +36,35 @@ export default {
 .active {
   color: red;
 }
+
+.red-rectangle {
+  width: 69px; /* ширина прямоугольника */
+  height: 8px; /* высота прямоугольника */
+  background-color: #AA0000; /* цвет фона прямоугольника */
+  margin-bottom: 10px;
+}
+.horizontal-line {
+  height: 1px;
+  width: 100%;
+  background-color: #000;
+  margin: 0 auto;
+}
+ li {
+   display: flex;
+   align-items: center;
+   list-style-type: none;
+ }
+ a {
+   text-decoration: none;
+   color: #000000;
+ }
+ .navigate_list-main {
+   margin: 0;
+   padding: 0;
+ }
+ .navigate_logo {
+   font-size: 24px;
+   font-weight: bold;
+ }
+
 </style>

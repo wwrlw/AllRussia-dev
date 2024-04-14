@@ -34,7 +34,7 @@ export default {
 
 <style scoped>
 .container {
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -45,7 +45,7 @@ export default {
 
 .horizontal-line {
   height: 1px;
-  width: 1400px;
+  width: 1440px;
   background-color: #000;
   margin: 0 auto;
 }
@@ -55,11 +55,15 @@ export default {
   height: 8px; /* высота прямоугольника */
   background-color: #AA0000; /* цвет фона прямоугольника */
   margin-bottom: 10px;
-  margin-left: 4%;
+}
+
+p {
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 0 20px 0 20px;
 }
 
 h3 {
-  margin: 0 0 0 58px;
   font-size: 24px;
   font-weight: 500;
 }

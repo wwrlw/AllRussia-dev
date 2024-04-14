@@ -2,7 +2,7 @@
  <div>
    <h2 class="maps__title">Мы на карте:</h2>
    <div class="maps container">
-     <div ref="map" style="width: 1000px; height: 500px"></div>
+     <div ref="map" style="width: 800px; height: 442px"></div>
    </div>
  </div>
 </template>
@@ -23,7 +23,7 @@ export default {
         });
 
         // Добавление маркера на карту
-        const marker = new ymaps.Placemark([55.753215, 37.622504], {
+        const marker = new ymaps.Placemark([55.741926, 37.524372], {
           hintContent: 'Москва',
           balloonContent: 'Столица России',
         });
@@ -38,7 +38,6 @@ export default {
 <style scoped>
 .maps {
   display: flex;
-  justify-content: center;
 
 }
 </style>

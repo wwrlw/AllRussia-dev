@@ -1,5 +1,8 @@
-.container, h3, h1, p, h2 {
+.container, p {
     font-family: "Roboto", sans-serif;
+}
+h1, h2, h3, h4, .title {
+    font-family: "Roboto Condensed", sans-serif;
 }
 :root {
     --blackpure: #000;

@@ -35,6 +35,7 @@ export default {
 
 
   .main__title {
+    font-family: "Roboto Condensed", sans-serif;
     text-align: center;
     color: #ffffff;
     font-size: 120px;
@@ -42,6 +43,7 @@ export default {
   }
 
   .main__subtitle {
+    font-family: "Roboto Condensed", sans-serif;
     text-align: center;
     color: #ffffff;
     font-size: 26px;

@@ -93,15 +93,14 @@ export default {
 
 <style scoped>
 .container {
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 357px;
-  padding-bottom: 200px;
+  padding-bottom: 300px;
 }
 h3 {
-  margin: 0 0 10px 58px;
   font-size: 24px;
   font-weight: 500;
 }
@@ -109,7 +108,7 @@ h3 {
 .horizontal-line {
   height: 0.3px;
   opacity: 0.4;
-  width: 1400px;
+  width: 1440px;
   background-color: #000;
   margin: 0 auto;
 }
@@ -118,7 +117,6 @@ h3 {
   width: 69px; /* ширина прямоугольника */
   height: 8px; /* высота прямоугольника */
   background-color: #AA0000; /* цвет фона прямоугольника */
-  margin-left: 4%;
   margin-bottom: 10px;
 }
 .diviver {
@@ -128,6 +126,8 @@ h3 {
   background-color: black;
 }
 .item_2-subtitle {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
   font-weight: bold;
   width: 345px;
 }

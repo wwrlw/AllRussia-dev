@@ -40,7 +40,7 @@ export default {
 
   .container {
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 1440px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(2, 340px);
@@ -48,6 +48,10 @@ export default {
     grid-column-gap: 20px;
   }
 
+  p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+  }
 
   .item_1{
     grid-column: 1/3;
@@ -59,7 +63,7 @@ export default {
   .horizontal-line {
     height: 1px;
     opacity: 0.4;
-    width: 1400px;
+    width: 1440px;
     background-color: #000;
     margin: 0 auto;
   }
@@ -68,15 +72,15 @@ export default {
     width: 69px; /* ширина прямоугольника */
     height: 8px; /* высота прямоугольника */
     background-color: #AA0000; /* цвет фона прямоугольника */
-    margin-left: 4%;
     margin-bottom: 10px;
   }
   h3 {
-    margin: 0 0 10px 58px;
     font-size: 24px;
     font-weight: 500;
   }
   .asd {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
     font-size: 18px;
   }
 

@@ -1,12 +1,14 @@
 <template>
     <div class="home">
       <main-section></main-section>
-      <main-grid></main-grid>
-      <mainEconomic/>
-      <main-politic></main-politic>
-      <main-teach></main-teach>
-      <main-culture/>
-      <main-theme/>
+     <div class="container">
+       <main-grid></main-grid>
+       <mainEconomic/>
+       <main-politic></main-politic>
+       <main-teach></main-teach>
+       <main-culture/>
+       <main-theme/>
+     </div>
     </div>
 </template>
 
@@ -27,6 +29,9 @@ export default {
 <style scoped>
 
 .home {
+  }
+.container {
+  max-width: 1440px;
 }
 
 </style>
